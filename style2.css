@@ -1,0 +1,102 @@
+.container
+{
+	/*border: 1px solid black;*/
+	display: block;
+	width: auto;
+	height: 550px;
+	margin: 50px 50px 0 50px;
+	background-color: #D4EFDF;
+	border-radius: 10px;
+	/*position: relative;*/
+}
+.container .box1
+{
+	/*border: 1px solid black;*/
+	display: block;
+	height: 200px;
+	width: 800px;
+	/*position: absolute;*/
+	transform: translate(200px,50px);
+}
+.container .box1 .image1
+{
+	/*border: 1px solid black;*/
+	display: block;
+	float: left;
+	height: 200px;
+	width: 220px;
+	/*position: absolute;*/
+}
+.container .box1 .image1 img
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.container .box1 .text1
+{
+	/*border: 1px solid black;*/
+	display: block;
+	height: 200px;
+	width: 548px;
+	float: right;
+}
+.container .box1 .text1 h1
+{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container .box1 .text1 p
+{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+}
+.container .box2
+{
+	/*border: 1px solid black;*/
+	display: block;
+	height: 200px;
+	width: 800px;
+	/*position: absolute;*/
+	transform: translate(250px,50px);
+	margin-top: 50px;
+}
+.container .box2 .image2
+{
+	/*border: 1px solid black;*/
+	display: block;
+	float: right;
+	height: 200px;
+	width: 220px;
+	/*position: absolute;*/
+}
+.container .box2 .image2 img
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.container .box2 .text2
+{
+	/*border: 1px solid black;*/
+	display: block;
+	height: 200px;
+	width: 548px;
+	float: left;
+}
+.container .box2 .text2 h1
+{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container .box2 .text2 p
+{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+}
